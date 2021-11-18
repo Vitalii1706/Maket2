@@ -14,28 +14,34 @@ body {
 .price-table-main {
   display: flex;
   margin: auto;
+  margin: 115px 132px;
 }
 
 .price-table {
   width: 380px;
-  height: 130pxpx;
-  margin: 115px 0 132px 0;
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
 
-.price-table-card__top {
+.price-table-card__title {
   text-align: center;
   height: 130px;
   position: relative;
   overflow: hidden;
 }
-.price-table-card__top .price-table-card__top-title {
+.price-table-card__title .price-table-card__top-title {
   font-size: 35px;
   font-weight: 700;
-  line-height: 30.48px;
+  line-height: 43px;
   margin-top: 33px;
   margin-bottom: 0;
+}
+
+.price-table-card__top-title-text {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 33px;
+  margin-top: 0;
 }
 
 .price-table__popular {
@@ -48,13 +54,6 @@ body {
   transform: rotate(45deg);
   top: 30px;
   right: -30px;
-}
-
-.price-table-card__top-title-text {
-  font-size: 25px;
-  line-height: 24.38px;
-  margin-bottom: 33px;
-  margin-top: 0;
 }
 
 .price-table {
