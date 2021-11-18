@@ -6,17 +6,23 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #141b1c;
 }
 
 .price-table-main {
   display: flex;
-  margin: auto;
-  margin: 115px 132px;
+  position: relative;
+  top: 50vh;
+  left: 0;
+  transform: translate(0, -50%);
 }
 
 .price-table {
   width: 380px;
+  height: 770px;
+  margin-right: 18px;
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
@@ -27,19 +33,16 @@ body {
   position: relative;
   overflow: hidden;
 }
-.price-table-card__title .price-table-card__top-title {
+.price-table-card__title .price-table-card__top {
   font-size: 35px;
   font-weight: 700;
   line-height: 43px;
   margin-top: 33px;
   margin-bottom: 0;
 }
-
-.price-table-card__top-title-text {
+.price-table-card__title .price-table-card__top-text {
   font-size: 20px;
   line-height: 24px;
-  margin-bottom: 33px;
-  margin-top: 0;
 }
 
 .price-table__popular {
@@ -52,10 +55,6 @@ body {
   transform: rotate(45deg);
   top: 30px;
   right: -30px;
-}
-
-.price-table {
-  margin-right: 18px;
 }
 
 .price-table-card__price {
@@ -115,6 +114,7 @@ body {
   height: 40px;
   line-height: 17px;
   color: #ffffff;
+  font-size: 14px;
   text-align: center;
   border: none;
   border-radius: 20px;

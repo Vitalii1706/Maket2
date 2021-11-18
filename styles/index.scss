@@ -10,18 +10,23 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: $text-color-primary;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: $color-black-background;
 }
 
 .price-table-main {
   display: flex;
-  margin: auto;
-  margin: 115px 132px;
+  position: relative;
+  top: 50vh;
+  left: 0;
+  transform: translate(0, -50%);
 }
 
 .price-table {
   width: 380px;
-
+  height: 770px;
+  margin-right: 18px;
   background-color: $color-grey-light-background;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
@@ -32,20 +37,17 @@ body {
   position: relative;
   overflow: hidden;
 
-  .price-table-card__top-title {
+  .price-table-card__top {
     font-size: $font-size-Xl;
     font-weight: 700;
     line-height: 43px;
     margin-top: 33px;
     margin-bottom: 0;
   }
-}
-
-.price-table-card__top-title-text {
-  font-size: 20px;
-  line-height: 24px;
-  margin-bottom: 33px;
-  margin-top: 0;
+  .price-table-card__top-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 
 .price-table__popular {
@@ -58,10 +60,6 @@ body {
   transform: rotate(45deg);
   top: 30px;
   right: -30px;
-}
-
-.price-table {
-  margin-right: 18px;
 }
 
 .price-table-card__price {
@@ -81,7 +79,6 @@ body {
 
 .price-table-card__text:nth-child(odd) {
   background-color: $color-grey-dark-background;
-
   color: $text-color-primary;
 }
 .price-table-card__text {
@@ -118,6 +115,7 @@ body {
   height: 40px;
   line-height: 17px;
   color: $text-color-primary;
+  font-size: $font-size-S;
   text-align: center;
   border: none;
   border-radius: $border-radius-button;
