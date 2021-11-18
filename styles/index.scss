@@ -22,7 +22,6 @@ body {
   top: 50vh;
   left: 0;
   transform: translate(0, -50%);
-  margin: auto 132px;
 }
 
 .price-card {
@@ -71,7 +70,8 @@ body {
   text-align: center;
   font-size: $font-size-XXl;
   font-weight: 700;
-  line-height: 105px;
+  line-height: 67px;
+  padding: 19px 0;
 }
 
 .price-card__description {
