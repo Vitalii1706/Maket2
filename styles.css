@@ -13,7 +13,7 @@ body {
 
 .price-table-main {
   display: flex;
-  margin: auto 132px;
+  margin: auto;
 }
 
 .price-table {
@@ -26,8 +26,9 @@ body {
 
 .price-table-card__top {
   text-align: center;
-  height: 64px;
+  height: 130px;
   position: relative;
+  overflow: hidden;
 }
 .price-table-card__top .price-table-card__top-title {
   font-size: 35px;
@@ -39,14 +40,14 @@ body {
 
 .price-table__popular {
   position: absolute;
-  top: -35px;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-top: 70px solid #dc3f45;
-  border-left: 70px solid transparent;
-  border-right: 70px solid #dc3f45;
-  border-bottom: 70px solid transparent;
+  font-size: 14px;
+  width: 147.08px;
+  height: 25.01px;
+  background-color: #dc3f45;
+  line-height: 25.01px;
+  transform: rotate(45deg);
+  top: 30px;
+  right: -30px;
 }
 
 .price-table-card__top-title-text {
