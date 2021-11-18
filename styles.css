@@ -18,7 +18,7 @@ body {
 
 .price-table {
   width: 380px;
-  height: 770px;
+  height: 130pxpx;
   margin: 115px 0 132px 0;
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
@@ -26,11 +26,34 @@ body {
 
 .price-table-card__top {
   text-align: center;
+  height: 64px;
+  position: relative;
 }
 .price-table-card__top .price-table-card__top-title {
   font-size: 35px;
-  line-height: 43px;
   font-weight: 700;
+  line-height: 30.48px;
+  margin-top: 33px;
+  margin-bottom: 0;
+}
+
+.price-table__popular {
+  position: absolute;
+  top: -35px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 70px solid #dc3f45;
+  border-left: 70px solid transparent;
+  border-right: 70px solid #dc3f45;
+  border-bottom: 70px solid transparent;
+}
+
+.price-table-card__top-title-text {
+  font-size: 25px;
+  line-height: 24.38px;
+  margin-bottom: 33px;
+  margin-top: 0;
 }
 
 .price-table {
