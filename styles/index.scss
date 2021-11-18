@@ -9,21 +9,23 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: $text-color-primary;
+
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: $color-black-background;
 }
 
-.price-table-main {
+.price-card-main {
   display: flex;
   position: relative;
   top: 50vh;
   left: 0;
   transform: translate(0, -50%);
+  margin: auto 132px;
 }
 
-.price-table {
+.price-card {
   width: 380px;
   height: 770px;
   margin-right: 18px;
@@ -31,26 +33,28 @@ body {
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
 
-.price-table-card__title {
+.price-card__top {
   text-align: center;
   height: 130px;
   position: relative;
   overflow: hidden;
 
-  .price-table-card__top {
-    font-size: $font-size-Xl;
+  .price-card__title {
+    font-size: 35px;
     font-weight: 700;
     line-height: 43px;
     margin-top: 33px;
     margin-bottom: 0;
   }
-  .price-table-card__top-text {
+  .price-card__title-text {
     font-size: 20px;
     line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 33px;
   }
 }
 
-.price-table__popular {
+.price-card__popular {
   position: absolute;
   font-size: $font-size-S;
   width: 147px;
@@ -62,7 +66,7 @@ body {
   right: -30px;
 }
 
-.price-table-card__price {
+.price-card__price {
   height: 105px;
   text-align: center;
   font-size: $font-size-XXl;
@@ -70,47 +74,49 @@ body {
   line-height: 105px;
 }
 
-.price-table-card__description {
+.price-card__description {
   text-align: center;
-  font-size: $font-size-M;
+  font-size: 15px;
+  font-weight: 300;
   line-height: 18px;
   margin: 40px 26px;
 }
 
-.price-table-card__text:nth-child(odd) {
+.price-card__text:nth-child(odd) {
   background-color: $color-grey-dark-background;
   color: $text-color-primary;
 }
-.price-table-card__text {
+.price-card__text {
   height: 50px;
   line-height: 50px;
+  font-size: $font-size-S;
   margin: 0;
 }
 
-.price-table-card__img {
+.price-card__img {
   width: 15px;
   height: 13px;
   margin: 0 22px;
 }
 
-.price-table-card__price-first,
-.price-table-card__button-first {
+.price-card__price-first,
+.price-card__button-first {
   background-color: $color-green;
 }
-.price-table-card__price-second,
-.price-table-card__button-second {
+.price-card__price-second,
+.price-card__button-second {
   background-color: $color-blue;
 }
-.price-table-card__price-third,
-.price-table-card__button-third {
+.price-card__price-third,
+.price-card__button-third {
   background-color: $color-orange;
 }
 
-.price-table-card__botton {
+.price-card__botton {
   display: flex;
   height: 119px;
 }
-.price-table-card__button {
+.price-card__button {
   width: 154px;
   height: 40px;
   line-height: 17px;
