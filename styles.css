@@ -5,8 +5,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  width: 1440px;
-  height: 1000px;
   display: flex;
   background-color: #141b1c;
 }
@@ -47,10 +45,10 @@ body {
 .price-table__popular {
   position: absolute;
   font-size: 14px;
-  width: 147.08px;
-  height: 25.01px;
+  width: 147px;
+  height: 25px;
   background-color: #dc3f45;
-  line-height: 25.01px;
+  line-height: 25px;
   transform: rotate(45deg);
   top: 30px;
   right: -30px;
@@ -71,7 +69,7 @@ body {
 .price-table-card__description {
   text-align: center;
   font-size: 15px;
-  line-height: 18.29px;
+  line-height: 18px;
   margin: 40px 26px;
 }
 
@@ -113,7 +111,7 @@ body {
 }
 
 .price-table-card__button {
-  width: 154.63px;
+  width: 154px;
   height: 40px;
   line-height: 17px;
   color: #ffffff;
