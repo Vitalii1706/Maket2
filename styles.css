@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -7,16 +8,14 @@ body {
   color: #ffffff;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /*Центрирование по горизонтали*/
   background-color: #141b1c;
 }
 
 .price-card-main {
   display: flex;
-  position: relative;
-  top: 50vh;
-  left: 0;
-  transform: translate(0, -50%);
+  justify-content: center;
+  /*Центрирование по горизонтали*/
 }
 
 .price-card {

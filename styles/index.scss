@@ -9,19 +9,14 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: $text-color-primary;
-
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /*Центрирование по горизонтали*/
   background-color: $color-black-background;
 }
 
 .price-card-main {
   display: flex;
-  position: relative;
-  top: 50vh;
-  left: 0;
-  transform: translate(0, -50%);
+  justify-content: center; /*Центрирование по горизонтали*/
 }
 
 .price-card {
