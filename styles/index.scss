@@ -10,18 +10,18 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: $text-color-primary;
   display: flex;
-  justify-content: center; /*Центрирование по горизонтали*/
+  justify-content: center;
   background-color: $color-black-background;
 }
 
 .price-card-main {
   display: flex;
-  justify-content: center; /*Центрирование по горизонтали*/
 }
 
 .price-card {
   width: 380px;
   height: 770px;
+  margin: 115px auto 118px auto;
   margin-right: 18px;
   background-color: $color-grey-light-background;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
