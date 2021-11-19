@@ -4,7 +4,7 @@
 
 ---
 
-## [Link](https://github.com/Vitalii1706/Maket2)
+## [Link](https://Vitalii1706.github.io/Maket2/index.html)
 
 ---
 
