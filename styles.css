@@ -8,11 +8,12 @@ body {
   display: flex;
   justify-content: center;
   background-color: #141b1c;
+  height: 100vh;
 }
 
 .price-card-main {
   display: flex;
-  margin: 115px auto 118px auto;
+  margin: auto;
 }
 
 .price-card {
