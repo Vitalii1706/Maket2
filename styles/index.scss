@@ -37,15 +37,16 @@ body {
   position: relative;
   overflow: hidden;
 
-  .price-card__title {
-    font-size: 35px;
+  &__title {
+    font-size: $font-size-Xl;
     font-weight: 700;
     line-height: 43px;
     margin-top: 33px;
     margin-bottom: 0;
   }
-  .price-card__title-text {
-    font-size: 20px;
+
+  &__title-text {
+    font-size: $font-size-L-M;
     line-height: 24px;
     margin-top: 0;
     margin-bottom: 33px;
@@ -75,7 +76,7 @@ body {
 
 .price-card__description {
   text-align: center;
-  font-size: 15px;
+  font-size: $font-size-M;
   font-weight: 300;
   line-height: 18px;
   margin: 40px 26px;
@@ -90,12 +91,12 @@ body {
   line-height: 50px;
   font-size: $font-size-S;
   margin: 0;
-}
 
-.price-card__img {
-  width: 15px;
-  height: 13px;
-  margin: 0 22px;
+  .price-card__img {
+    width: 15px;
+    height: 13px;
+    margin: 0 22px;
+  }
 }
 
 .price-card__price-first,
@@ -114,15 +115,16 @@ body {
 .price-card__botton {
   display: flex;
   height: 119px;
-}
-.price-card__button {
-  width: 154px;
-  height: 40px;
-  line-height: 17px;
-  color: $text-color-primary;
-  font-size: $font-size-S;
-  text-align: center;
-  border: none;
-  border-radius: $border-radius-button;
-  margin: auto;
+
+  .price-card__button {
+    width: 154px;
+    height: 40px;
+    line-height: 17px;
+    color: $text-color-primary;
+    font-size: $font-size-S;
+    text-align: center;
+    border: none;
+    border-radius: $border-radius-button;
+    margin: auto;
+  }
 }
